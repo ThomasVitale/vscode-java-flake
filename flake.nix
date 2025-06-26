@@ -15,7 +15,6 @@
         };
 
         vscode-with-extensions = pkgs.vscode-with-extensions.override {
-          vscode = pkgs.vscodium;
           vscodeExtensions = with pkgs.vscode-extensions; [
             redhat.java
             redhat.vscode-yaml
