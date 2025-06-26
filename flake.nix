@@ -17,10 +17,11 @@
         vscode-with-extensions = pkgs.vscode-with-extensions.override {
           vscodeExtensions = with pkgs.vscode-extensions; [
             redhat.java
+            redhat.vscode-yaml
             vscjava.vscode-java-debug
             vscjava.vscode-java-test
             vscjava.vscode-java-dependency
-            redhat.vscode-yaml
+            visualstudioexptteam.vscodeintellicode
           ];
         };
       in
