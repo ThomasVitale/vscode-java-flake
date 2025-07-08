@@ -1,6 +1,6 @@
 # VS Code Java - Nix Flake
 
-A [Nix Flake](https://nixos.wiki/wiki/flakes) to install the [VS Code with Extensions](https://arconia.io/docs/arconia-cli/latest/index.html) Nix package with pre-configured extensions to use for Java projects.
+A [Nix Flake](https://nixos.wiki/wiki/flakes) to install the [VS Code with Extensions](https://github.com/NixOS/nixpkgs/blob/nixos-unstable/pkgs/applications/editors/vscode/vscode.nix) Nix package with pre-configured extensions to use for Java projects.
 
 ## How to use it
 
