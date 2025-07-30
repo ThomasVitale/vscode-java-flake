@@ -28,13 +28,13 @@
             {
               name = "vscode-spring-boot";
               publisher = "vmware";
-              sha256 = "sha256-ILUyJkmkGyiFxPNTPxix3GppEumA/WDu9XUOPM6RSvs=";
-              version = "1.64.2025070800";
+              sha256 = "sha256-LDhhsvZsQzfdhHbo9SMAea7bcF6JcifTxuzsujdAFNo=";
+              version = "2.0.2025072900";
             }
             {
               name = "vscode-spring-boot-dashboard";
               publisher = "vscjava";
-              sha256 = "sha256-AwcJrCjKjlBi5McCbr0MGIBi3gIQn4mtcq5eK85YylQ=";
+              sha256 = "sha256-gtEn4UD5Ft+JJqHcz/Eh4t2njOZJg2NRVtfD8Hy4LT8=";
               version = "0.14.2025041702";
             }
           ];
