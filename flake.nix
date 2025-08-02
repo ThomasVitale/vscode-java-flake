@@ -2,7 +2,7 @@
   description = "VSCode with Java extensions";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -16,6 +16,7 @@
 
         vscode-with-extensions = pkgs.vscode-with-extensions.override {
           vscodeExtensions = with pkgs.vscode-extensions; [
+            continue.continue
             redhat.java
             redhat.vscode-yaml
             vscjava.vscode-java-debug
@@ -28,8 +29,8 @@
             {
               name = "vscode-spring-boot";
               publisher = "vmware";
-              sha256 = "sha256-LDhhsvZsQzfdhHbo9SMAea7bcF6JcifTxuzsujdAFNo=";
-              version = "2.0.2025072900";
+              sha256 = "sha256-4b8lt5XxP8S1mK3lM9DY3JYJYyBwNv1RBM0sMXeWf5U=";
+              version = "2.0.2025073100";
             }
             {
               name = "vscode-spring-boot-dashboard";
